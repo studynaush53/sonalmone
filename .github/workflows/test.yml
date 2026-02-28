@@ -1,0 +1,8 @@
+name: josco workflow
+on: workflow_dispatch
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print a hard statement
+        run: echo ' PRime is on the flow, Be prepared"
