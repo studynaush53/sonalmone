@@ -7,7 +7,3 @@ jobs:
       - name: print a hard statement
         run: |
         echo "this is it, Prime has returned"
-        uptime
-        date
-        whoami
-        hostname -i
