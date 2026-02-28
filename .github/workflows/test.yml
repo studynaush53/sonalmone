@@ -1,16 +1,20 @@
 name: josco workflow
 on: workflow_dispatch
 jobs:
-  hello:
+  Build:
     runs-on: ubuntu-latest
     steps:
-      - name: print a hard statement
-        run: |
-          echo "this is it, Prime has returned"
-          uname
-          hostname -i
-          hostname
-          uptime
-          free -mh
-          df -Th
-          
+       - name: Building phase
+         run: echo"Building in progress"
+
+  Test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Testing goes
+        run: echo"Testing phase happens"
+
+  Deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deployment goes
+        run: echo"Deployment goes"
