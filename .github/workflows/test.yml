@@ -5,16 +5,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
        - name: Building phase
-         run: echo"Building in progress"
+         run: echo "Building in progress"
 
   Test:
     runs-on: ubuntu-latest
     steps:
       - name: Testing goes
-        run: echo"Testing phase happens"
+        run: echo "Testing phase happens"
 
   Deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Deployment goes
-        run: echo"Deployment goes"
+        run: echo "Deployment goes"
