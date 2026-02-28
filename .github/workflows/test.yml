@@ -5,5 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print a hard statement
-        run: |
-        echo "this is it, Prime has returned"
+        run: echo "this is it, Prime has returned"
